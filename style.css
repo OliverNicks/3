@@ -1,0 +1,95 @@
+/* I */
+.main_1{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    background-color: lightblue;
+    justify-content: space-around;
+    align-items: center;
+}
+.a1{
+    background-color: rgb(0, 172, 0);
+    height: 50px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.b1{
+    background-color: yellow;
+    height: 30px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.c1{
+    background-color:red;
+    height: 70px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.d1{
+    background-color: blue;
+    height: 40px;
+    flex-grow: 1;
+    border-radius: 5px;
+}
+.a1, .b1, .c1, .d1{
+    margin: 10px;
+    text-align: center;
+}
+/* II */
+.main_2{
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-content: space-between;
+    background-color: lightblue;
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.main_2 > div{
+    width: 50px;
+    background-color: rgb(252, 176, 195);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* III */
+.main_3{
+    display: flex;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.main_3 > div{
+    width: 50px;
+    background-color: rgb(252, 176, 195);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+/* IV */
+.main_4{
+    display: flex;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.a2{
+    flex-grow: 1;
+}
+.b2{
+    flex-grow: 1;
+}
+.c2{
+    flex-grow: 3;
+}
+.a2, .b2, .c2{
+    background-color: brown;
+    margin: 30px;
+    text-align: center;
+    color: beige;
+    border-radius: 5px;
+}
